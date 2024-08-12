@@ -138,3 +138,15 @@ const USER_THEME = userSavedTheme || 'light';
 
 // Log the result
 console.log('User theme setting:', USER_THEME);
+
+// Exercise 11: Optional chaining
+
+// Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
+
+const adventurer = {
+  name: 'Alice',
+};
+
+let catAge = adventurer.cat?.age;
+
+console.log(catAge);
