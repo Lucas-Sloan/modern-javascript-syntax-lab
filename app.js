@@ -72,7 +72,7 @@ console.log(myCar);
 const userProfile = {};
 
 const propertyName = 'username';
-userProfile[propertyName] = LucasSloan;
+userProfile[propertyName] = 'LucasSloan';
 
 console.log(userProfile);
 
